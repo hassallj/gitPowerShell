@@ -34,7 +34,19 @@ foreach ($user in $users) {
     $surname = $user.'Legal Surname'
     $firstname = $user.Forename
 
-    if ($year = 'Year 7') {
-        
+    if ($year -eq "Year 7") {
+        $prefixYear = $year7
+    }
+    elseif ($year -eq "Year 8") {
+        $prefixYear = $year8
+    }
+    elseif ($year -eq "Year 9") {
+        $prefixYear = $year9
+    }
+    elseif ($year -eq "Year 10") {
+        $prefixYear = $year10
+    }
+    elseif ($year -eq "Year 11") {
+        $prefixYear = $year11
     }
 }
