@@ -1,6 +1,6 @@
 #============================================================================================
 
-#Script to automatically create or disable students after changes in SIMS
+#Script to automatically create or disable students after changes in SIMS#
 
 #============================================================================================
 
